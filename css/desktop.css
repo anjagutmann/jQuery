@@ -1,0 +1,38 @@
+@media screen and (min-width: 768px) {
+
+.site-header-row {
+    display: flex;
+    align-items: center;
+    height: 4em;
+    justify-content: space-between;
+    padding: 2em;
+}
+
+.sectionOne-row{
+    display: grid;
+    grid-template-columns: 1fr 2fr 2fr;
+    grid-template-rows: 5fr;
+    grid-gap: 3em;
+    flex-direction: row;
+}
+
+
+.carousel-slides {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-row: 1fr;
+    gap: 3em;
+    position: relative;
+}
+
+.footer-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 2fr;
+    grid-gap: 3em;
+    font-size: 1.3em;
+    font-weight: 600;
+}
+
+
+}

@@ -1,0 +1,8 @@
+{
+    "title": "Library jQuery",
+    "folder": "jQuery",
+    "description": "jQuery ist eine umfangreiche JavaScript-Bibliothek, die die Webentwicklung durch DOM-Manipulation, Event-Handling, Animationen, Effekte und AJAX erleichtert und dadurch ein dynamisches Benutzererlebnis ermöglicht.",
+    "tags": ["JavaScript-Bibliothek", "Event-Handling", "Interaktive Webanwendungen"],
+    "author": "Anja Gutmann",
+    "github": "https://github.com/anjagutmann/jQuery.git"
+}

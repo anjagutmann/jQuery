@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Library jQuery</title>
+    <link rel="stylesheet" href="fonts/stylesheet.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/mobile.css">
+    <link rel="stylesheet" href="css/desktop.css">
+    <script src="lib/jquery-3.6.0.min.js"></script>
+</head>
+<body>
+    <a href="#" class="cursor"></a>
+    <div class="hover-label">Click to <br> show content</div>
+    <header class="site-header">
+        <div class="site-header-row">
+            <div class="site-header-column_left">
+                <div class="site-header-home">
+                    <button><a href="../../index.html">
+                        <img src="img/home.svg" alt="Home">
+                    </a></button>
+                </div>
+            </div>
+            <div class="site-header-column_right">
+                <div class="site-header-logo">
+                    <img src="img/logo.png" alt="Logo">
+                </div>
+            </div> 
+        </div>       
+    </header>
+
+    <main>
+        <section class="containerOne">
+            
+            <div class="sectionOne">
+                <div class="sectionOne-row">
+                    <div class="sectionOne-kategorie">01 About</div>
+                    <h1><span>jQuery</span> ist eine <br> JavaScript-Bibliothek für <br> Web-Interaktionen.</h1>
+                </div>
+            </div>
+            <a href="#containerTwo" class="scroll-arrow">
+                <img src="img/arrow.svg" alt="Scroll to section two">
+            </a>
+        </section> 
+        <section id="containerTwo" class="containerTwo">
+            <div class="sectionTwo-kategorie">02 Quickfacts</div>
+                <div class="sectionTwo-tile01">
+                    <h3>jQuery ist eine <br> JavaScript-Bibliothek</h3>
+                    <p>jQuery ist eine JavaScript-Bibliothek, die das Schreiben von Code erleichtert und beschleunigt. Sie bietet viele Funktionen und Methoden für die DOM-Manipulation, Ereignisverwaltung, Animationen und Ajax-Requests.</p>
+                </div>
+                <div class="sectionTwo-tile02">
+                    <h3>jQuery wurde 2006 veröffentlicht</h3>
+                    <p>jQuery wurde im Jahr 2006 von John Resig veröffentlicht und hat sich seitdem zu einer der am häufigsten verwendeten JavaScript-Bibliotheken entwickelt.</p>
+                </div>
+                <div class="sectionTwo-tile03">
+                    <h3>jQuery bietet eine <br> Vielzahl an Plug-ins</h3>
+                    <p>jQuery hat eine große Community, die ständig neue Plug-ins und Erweiterungen erstellt, um die Funktionalität von jQuery zu erweitern. Es gibt eine Vielzahl von Plug-ins für die Erstellung von Benutzeroberflächen, Tabellen, Diagrammen, Diagrammen und vielem mehr.</p>
+                </div>
+                <div class="sectionTwo-tile04">
+                    <h3>jQuery ist nicht mehr die einzige Option</h3>
+                    <p>Während jQuery immer noch sehr beliebt ist, gibt es mittlerweile viele andere JavaScript-Bibliotheken und Frameworks, die ähnliche Funktionen bieten. Einige der beliebtesten Alternativen zu jQuery sind React, Vue.js, Angular und Ember.js.</p>
+                </div>
+            </section>
+        <section class="containerThree">
+                <div class="sectionThree-kategorie">03 Examples</div>
+                    <div class="carousel-slides">
+                        <div class="slide active-slider">
+                            <div class="carousel-img">
+                                <img src="img/Element-Selektion-im-DOM.jpg" alt="Element Sektion im DOM">
+                            </div>
+                            <div class="carousel-content">
+                                <h3>Elementselektion im Document Object Model (DOM)</h3>
+                                <p>Mit Hilfe von jQuery können bestimmte HTML-Elemente auf einer Webseite ausgewählt werden und Interaktionen mit ihnen durch eine Vielzahl von Selektoren, wie z.B. Klassen, IDs oder Eigenschaften ermöglicht werden. Mit komplexen Selektoren können auch Elemente basierend auf ihrer Beziehung zu anderen Elementen ausgewählt werden. Nach der Auswahl eines Elements können verschiedene Aktionen ausgeführt werden, z.B. das Ändern des Inhalts, Hinzufügen oder Entfernen von Klassen oder das Binden von Ereignissen.</p>
+                            </div>
+                        </div>    
+                        <div class="slide">
+                            <div class="carousel-img">
+                                <img src="img/Dokument-Objekt-Model_Manipulation.jpg" alt="Dokument-Objekt-Model Manipulation">
+                            </div>
+                            <div class="carousel-content">
+                                <h3>Dokument-Objekt-Model Manipulation</h3>
+                                <p>Die Dokument-Objekt-Model-Manipulation in jQuery ermöglicht es, das DOM einfach und schnell zu manipulieren. Durch die Verwendung von CSS-Selektoren und jQuery-Methoden können Elemente schnell und einfach gefunden und bearbeitet werden, z.B. durch Ändern ihrer Eigenschaften oder Einfügen von HTML-Inhalten. Die Manipulation ist sehr leistungsfähig und kann für dynamische Benutzeroberflächen, Interaktionen oder Layout-Änderungen eingesetzt werden.</p>
+                            </div>
+                        </div> 
+                        <div class="slide">
+                            <div class="carousel-img">
+                                <img src="img/Erweitertes_Event-System.jpg" alt="Erweitertes Event-System">
+                            </div> 
+                            <div class="carousel-content">
+                                <h3>Erweitertes Event-System</h3>
+                                <p>Das erweiterte Event-System von jQuery ermöglicht es, Ereignisse auf einfache und effiziente Weise zu verarbeiten. Mit jQuery können Event-Handler auf verschiedene Arten registriert werden, und auch benutzerdefinierte Ereignisse sind möglich. Ein nützliches Feature ist die Event-Delegierung, bei der Event-Handler dynamisch auf Elemente angewendet werden können. Das erweiterte Event-System von jQuery bietet somit eine leistungsstarke Möglichkeit, Ereignisse auf Webseiten zu verarbeiten.</p>
+                            </div>
+                        </div>
+                        <div class="slide">
+                            <div class="carousel-img">
+                                <img src="img/Animation-Effekte.jpg" alt="Animation und Effekte">
+                            </div>
+                            <div class="carousel-content">
+                                <h3>Animation und Effekte</h3>
+                                <p>Mit jQuery können Animationen und Effekte auf Webseiten erstellt werden, um die Nutzererfahrung zu verbessern. Es gibt eine Vielzahl von Funktionen, die es ermöglichen, Elemente auf elegante Weise zu animieren oder Effekte hinzuzufügen. Vorgefertigte Effekte wie z.B. Fade-Ins oder Slide-Ins können einfach erzeugt werden. Durch die Verwendung von Callback-Funktionen können Animationen und Effekte präzise gesteuert und angepasst werden. Insgesamt bietet jQuery eine leistungsstarke Möglichkeit, Animationen und Effekte auf Webseiten zu erstellen und zu steuern.</p>
+                            </div>
+                        </div>
+                        <div class="slide">
+                            <div class="carousel-img">
+                                <img src="img/ajax.jpg" alt="Ajax Funktionalität">
+                            </div>    
+                            <div class="carousel-content">
+                                <h3>Ajax Funktionalität</h3>
+                                <p>Ajax ist ein wichtiger Teil von jQuery und ermöglicht es, Inhalte von Webseiten dynamisch zu laden, ohne dass die Seite neu geladen werden muss. Mit jQuery können Ajax-Anfragen auf einfache Weise erstellt werden, und es gibt eine Vielzahl von Optionen, die für die Ajax-Funktionalität konfiguriert werden können. Insgesamt bietet die Ajax-Funktionalität von jQuery eine leistungsstarke Möglichkeit, Inhalte auf Webseiten zu laden und dadurch die Nutzererfahrung zu verbessern.</p>
+                            </div>
+                        </div>           
+                    </div>
+        </section>
+        
+    </main> 
+    <footer>
+        <div class="footer-container">
+          <div class="footer-section-01">
+            <h4>Wer?</h4>
+            <ul>
+              <li>Programmiersprachen 3</li>
+              <li>Dozent Fabian Rauch</li>
+              <li>Studentin Anja Gutmann</li>
+            </ul>
+          </div>
+          <div class="footer-section-02">
+            <h4>Was?</h4>
+            <ul>
+              <li>Webdesign</li>
+              <li>Webentwicklung</li>
+            </ul>
+          </div>
+          <div class="footer-section-03">
+            <h4>Wo?</h4>
+            <ul>
+              <li>Hochschule für Gestaltung</li>
+              <li>Rektor-Klaus-Straße 100</li>
+              <li>73525 Schwäbisch Gmünd</li>
+              <br>
+              <li><a href="mailto:anja.gutmann@hfg-gmuend.de">E-Mail: anja.gutmann@hfg-gmuend.de</a></li>
+            </ul>
+          </div>
+        </div>
+    </footer>
+      
+    <script src="script.js"></script>
+</body>
+</html>
